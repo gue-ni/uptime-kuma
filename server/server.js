@@ -233,7 +233,7 @@ app.use(function (req, res, next) {
     }
 
     // Init Better Auth
-    auth();
+    auth(true);
 
     // Create the initial admin user from env, only when the database has no user yet
     try {
